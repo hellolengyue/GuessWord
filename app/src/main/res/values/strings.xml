@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">猜字谜</string>
+    <string name="help">根据给定的题目选择正确的答案即可回答下一题，也可以通过金币获取答案或获取答题机会</string>
+    <string name="more">更多精彩，更多内容，意见反馈请发送邮件1135090898@qq.com</string>
+</resources>

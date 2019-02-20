@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_back">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_return_selector" />
+
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:text="第1题"
+        android:textColor="#333333"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/level"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg3"
+        android:gravity="center_vertical"
+        android:lineSpacingMultiplier="1.3"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="小明的爸爸只当了一次官，而且只当了几天。可是因为当了那次官，闹得他每天都要掏腰包，他当的是什么官"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ask"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="点击显示答案" />
+
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/icon_next_btn"
+        android:gravity="center" />
+</RelativeLayout>

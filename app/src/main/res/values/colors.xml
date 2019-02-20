@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66CD00</color>
+    <color name="colorPrimaryDark">#555555</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDivider">#dfdfdf</color>
+    <color name="vifrification">#00000000</color>   <!-- 透明 -->
+    <color name="line_common">#dfdfdf</color>
+    <color name="text_view_color">#333333</color>
+</resources>
